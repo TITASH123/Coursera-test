@@ -1,0 +1,81 @@
+
+
+/** HEADER **/
+
+/* container class for the navigation header */
+#header-nav {
+  background-color: #202020 ;
+  border-radius: 0;
+  border: 0;
+  height: 70px;
+}
+
+/*  **FOOD,LLC** */
+
+.navbar-brand {
+  padding-top: 0px;
+}
+ 
+ /* Actual text of FOOD, LLC DESIGN */
+.navbar-brand h1 { 
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+/* WHEN WE CLICK IT */
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    background-color: #FFA500;
+
+}
+
+/*NAVIGATION LIST OF CHICKEN SUSHI BEEF */
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/*OUR MENU */
+.text-center
+{
+  font-size: 30px;
+  font-weight: bold;
+}
+/* Chicken , Sushi, Beef in the main content page */
+.heading
+ {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+ }
+ /* Content of the chicken sushi etc */
+ .menus
+ {
+  background-color:#FFC0CB;
+  padding: 10px;
+ } 

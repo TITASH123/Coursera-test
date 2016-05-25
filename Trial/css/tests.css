@@ -1,0 +1,56 @@
+
+
+/** HEADER **/
+#header-nav {
+ background-color: #202020 ;
+  border-radius: 0;
+  border: 0;
+  height: 70px;
+}
+}
+
+
+.navbar-brand {
+  padding-top: 0px;
+}
+
+.navbar-brand h1 { /* FOOD, LLC */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+/* THE UNORDERED LIST */
+#nav-list {
+  margin-top: 0px;
+}
+#nav-list a {
+  background-color: #FFA500;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 2.0em;
+  font-weight: bold;
+}
+.heading
+{
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffffff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -25px;
+}
+/* END HEADER */
